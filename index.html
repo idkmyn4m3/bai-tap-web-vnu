@@ -482,15 +482,18 @@ nav {
 
 /* ===== ABOUT PAGE ===== */
 .about-grid { display: grid; grid-template-columns: 1fr 2fr; gap: 2.5rem; align-items: start; }
-.about-avatar {
-  width: 100%; aspect-ratio: 1;
-  background: linear-gradient(145deg, var(--green-dark), var(--green-accent));
-  border-radius: var(--radius);
-  display: flex; align-items: center; justify-content: center;
-  font-family: 'Playfair Display', serif;
-  font-size: 4rem; color: rgba(255,255,255,0.9);
-  box-shadow: var(--shadow-md);
-  max-width: 220px;
+.about-avatar{
+    width:280px;
+    height:360px;
+    border-radius:14px;
+    overflow:hidden;
+}
+
+.about-avatar img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+    background:white;
 }
 .about-name {
   font-family: 'Playfair Display', serif;
@@ -631,7 +634,7 @@ footer strong { color: rgba(255,255,255,0.9); }
         <div class="hero-divider"></div>
         <div class="hero-meta-item">
           <span class="label">Nhóm</span>
-          <span class="value">Nhóm 38</span>
+          <span class="value">38</span>
         </div>
         <div class="hero-divider"></div>
         <div class="hero-meta-item">
@@ -747,23 +750,23 @@ footer strong { color: rgba(255,255,255,0.9); }
       <button class="back-btn" onclick="showPage('home')">Trang chủ</button>
       <div class="page-header-badge">Giới thiệu cá nhân</div>
       <h2>Nguyễn Như Việt Anh</h2>
-      <p>Sinh viên ngành Công nghệ thông tin · Đại học Quốc gia Hà Nội</p>
+      <p>Sinh viên ngành Trí tuệ nhân tạo · Đại học Quốc gia Hà Nội</p>
     </div>
   </div>
   <div class="section">
     <div class="about-grid">
       <div>
-        <div class="about-avatar">VA</div>
+        <div class="about-avatar"><img src="avatar.jpg" alt="ảnh cá nhân"></div>
       </div>
       <div>
         <h2 class="about-name">Nguyễn Như Việt Anh</h2>
         <p class="about-role">Sinh viên K70 · Lớp K70A-AI4 · Nhóm 38</p>
         <div class="about-row"><span class="key">MSSV:</span><span class="val">25022774</span></div>
         <div class="about-row"><span class="key">Trường:</span><span class="val">Đại học Quốc gia Hà Nội (ĐHQGHN)</span></div>
-        <div class="about-row"><span class="key">Ngành:</span><span class="val">Công nghệ thông tin</span></div>
-        <div class="about-row"><span class="key">Vai trò nhóm:</span><span class="val">Chuyên viên Nghiên cứu & Chắt lọc thông tin</span></div>
+        <div class="about-row"><span class="key">Ngành:</span><span class="val">Trí tuệ nhân tạo</span></div>
+        <div class="about-row"><span class="key">Vai trò nhóm:</span><span class="val">Tìm hiểu & Chắt lọc thông tin</span></div>
         <div class="about-row"><span class="key">Hoàn thành:</span><span class="val">Tháng 6 năm 2026</span></div>
-        <p class="about-text">Tôi là sinh viên năm nhất ngành Công nghệ thông tin tại ĐHQGHN. Portfolio này là sản phẩm tổng hợp của môn <em>Nhập môn Công nghệ số và Ứng dụng Trí tuệ Nhân tạo</em>, thể hiện hành trình học tập từ những kỹ năng cơ bản đến việc ứng dụng AI một cách có trách nhiệm trong học tập và nghiên cứu.</p>
+        <p class="about-text">Tôi là sinh viên năm nhất ngành Trí tuệ nhân tạo tại ĐHQGHN. Portfolio này là sản phẩm tổng hợp của môn <em>Nhập môn Công nghệ số và Ứng dụng Trí tuệ Nhân tạo</em>, thể hiện hành trình học tập từ những kỹ năng cơ bản đến việc ứng dụng AI một cách có trách nhiệm trong học tập và nghiên cứu.</p>
       </div>
     </div>
 
